@@ -17,7 +17,7 @@ Our Web page consist of two parts, search filter and head. At the top part of ou
 
 ## Summary
 
-Although our web page looks professional and is serves its purpose of displaying information requested, there are a few things we could do to make it even better. 
+Although our web page looks professional and is serves its purpose of displaying information requested, there are few things we could do to make it even better. 
 
 First, since the data we are pulling information from has only one origin of country as US, that column can be removed. 
 
