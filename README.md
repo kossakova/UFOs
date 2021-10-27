@@ -17,8 +17,4 @@ Our Web page consist of two parts, search filter and head. At the top part of ou
 
 ## Summary
 
-Although our web page looks professional and is serves its purpose of displaying information requested, there are few things we could do to make it even better. 
-
-First, since the data we are pulling information from has only one origin of country as US, that column can be removed. 
-
-Second, in the original web page we had “filter” button that run our search tab that was removed, we could bring that button back but this time assign it to clear the input, so we don’t have to navigate to the navigation bar. 
+Although our web page looks professional and is serves its purpose of displaying information requested, there are few things we could do to make it even better. One of the drawbacks of the site is the way filter search is displayed, it would look better if we move each input bar umpteenth the enter title bar. Also, since the data we are pulling information from has only one origin of country as US, that column can be removed. Lasly, in the original web page we had “filter” button that run our search tab that was removed, we could bring that button back but this time assign it to clear the input, that way we don’t have to navigate to the navigation bar. 
