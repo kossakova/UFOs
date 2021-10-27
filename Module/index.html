@@ -21,7 +21,7 @@
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     <div class="jumbotron">
-        <h1 class="display-4">The Truth Is Out There</h1></form>
+        <h1 class="display-4">The Truth Is Out There</h1>
     </div >
     <!--“container-fluid” class  creates a container for other elements. Element(s) inside the container will resize as needed to fully fit the width of the browser.-->
     <div class="container-fluid,">
@@ -47,30 +47,16 @@
             <div class="col-md-3">
                 <form class="bg-dark">
                     <p>Filter Search</p>
-            
-                <ul class="bg-dark list-group">
-                    <li class="list-group-item bg-dark">
+                <ul class="bg-dark" class="list-group">
+                    <li class="bg-dark" class="list-group-item">
                         <!-- The label will be used as a prompt to encourage users to input a date.-->
                         <label for="date">Enter Date</label>
                         <!-- placeholder is an example of a date to search, so users know both the location and the format to use when inputting a date.-->
                         <!--id="datetime" is what our JavaScript code will look for when the button is clicked and the function is executed.-->
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                     </li>
-                    <li class="bg-dark list-group-item">
-                        <label for="city">Enter a City</label>
-                        <input type="text" id="city"  placeholder="loveland"/>
-                    </li>
-                    <li class="bg-dark list-group-item">
-                        <label for="state">Enter a State</label>
-                        <input type="text" id="state" placeholder="co"/>
-                    </li>
-                    <li class="bg-dark list-group-item">
-                        <label for="country">Enter a Country</label>
-                        <input type="text" id="country" placeholder="us"/>
-                    </li>
-                    <li class="bg-dark list-group-item">
-                        <label for="shape">Enter a Shape</label>
-                        <input type="text" id="shape" placeholder="cross"/>
+                    <li class="bg-dark" class="list-group-item">
+                        <button id="filter-btn" type="button" class="btn-dark">Filter Table</button>
                     </li>
                 </ul>
                 </form>
